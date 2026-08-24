@@ -43,7 +43,7 @@ public class CarSale {
                     System.out.println("Enter car id");
                     int id2 = sc.nextInt();
                     System.out.println("Enter car purchase date: ");
-                    String pDate = sc.next();
+                    String pDate = sc.next();//yyyy-mm-dd
                     LocalDate date = LocalDate.parse(pDate);
                     System.out.println("Car color");
                     String color = sc.next();
