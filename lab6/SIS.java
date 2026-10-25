@@ -1,6 +1,5 @@
-package lab7;
+package lab6;
 
-import javax.imageio.IIOException;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;

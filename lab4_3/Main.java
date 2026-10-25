@@ -1,6 +1,4 @@
-package lab5_1;
-import java.awt.*;
-import java.util.Scanner;
+package lab4_3;
 
 public class Main {
     public static void main(String[] args) {

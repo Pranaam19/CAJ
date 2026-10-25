@@ -1,4 +1,4 @@
-package lab6_2;
+package lab5_1;
 
 public class BasicCalculator implements Calculator {
 

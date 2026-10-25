@@ -1,4 +1,4 @@
-package Lab8;
+package Lab7;
 
 import java.beans.Statement;
 import java.sql.Connection;

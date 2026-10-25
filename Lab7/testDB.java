@@ -1,4 +1,4 @@
-package Lab8;
+package Lab7;
 
 import java.sql.*;
 
@@ -17,13 +17,18 @@ public class testDB {
         System.out.println("loaded driver sucessfully");
     }
 
-    public static void createConnection()  {
-        try {
-            con= DriverManager.getConnection("jdbc:mysql://localhost:3306/testdb","pran","pran");
-        } catch (SQLException e) {
-            System.out.println(e);
-        }
+//    public static void createConnection()  {
+//        try {
+//            con= DriverManager.getConnection("jdbc:mysql://localhost:3306/testdb","pran","pran");
+//        } catch (SQLException e) {
+//            System.out.println(e);
+//        }
+//    }
+    public static void createConnection() {
+    // Call the static getConnection method you just finished fixing in DBase
+        con = DBase.getConnection();
     }
+
 
     public static void generateStatement(){
         try {
@@ -55,9 +60,9 @@ public class testDB {
     }
     public static void main(String[] args ){
 //        loadDriver();
-//        createConnection();
-//        generateStatement();
-//        display();
-//        closeObjects();
+        createConnection();
+        generateStatement();
+        display();
+        closeObjects();
     }
 }

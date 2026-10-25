@@ -1,5 +1,5 @@
-package lab5_1;
-import lab5_1.*;
+package lab4_3;
+
 public class Rectangle extends Shape{
 
     private double length=1.0;

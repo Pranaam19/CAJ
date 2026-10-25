@@ -1,8 +1,6 @@
-package Lab8;
+package Lab7;
 
-import java.beans.Statement;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -14,7 +12,8 @@ public class DBase {
     static{
         try{
             Properties props = new Properties();
-            InputStream input = new FileInputStream("D:\\Aug");
+            InputStream input = new FileInputStream("src/Lab8/db.properties"    );
+
             props.load(input);
 
             String driver = props.getProperty("db.driver");
