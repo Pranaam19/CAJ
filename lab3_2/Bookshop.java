@@ -1,4 +1,4 @@
-package lab3_4;
+package lab3_2;
 
 public class Bookshop {
     private double rate;

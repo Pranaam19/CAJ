@@ -1,4 +1,4 @@
-package Lab3;
+package Lab3_1;
 
 public class Employee {
 

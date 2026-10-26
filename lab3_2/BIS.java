@@ -1,6 +1,4 @@
-package lab3_4;
-
-import Lab3.Employee;
+package lab3_2;
 
 
 import java.util.ArrayList;

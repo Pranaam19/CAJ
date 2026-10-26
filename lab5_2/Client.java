@@ -1,4 +1,4 @@
-package lab5_1;
+package lab5_2;
 
 public class Client {
     private static void testAdd(){

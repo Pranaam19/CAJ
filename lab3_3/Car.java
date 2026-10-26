@@ -1,7 +1,6 @@
-package lab3_5;
+package lab3_3;
 
 import java.time.LocalDate;
-import java.util.Date;
 
 public class Car {
     private int id;
